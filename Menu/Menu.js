@@ -38,20 +38,27 @@ function createMenu(arr){
   const header = document.querySelector('.header');
   //create container div with class menu
   const menuContainer = document.createElement('div');
-  menuContainer.classList.add('menu');
+  menuContainer.classList.add('menu');                            
   //create ul
   const list = document.createElement('ul');
  
   //loop over arr and create menu items as li
+  //Populate lis with values from array
   for (let i=0;i<arr.length;i++){
+    //create new li
     let li = document.createElement('li');
+    //append li to the ul
     list.appendChild(li);
+    //populate created and appended li array data
     li.textContent = arr[i];
     }
   //select the menu button
   const menuButton = document.querySelector('.menu-button');
+
+  //event listener on click on menu button
   menuButton.addEventListener('click', e=>{
     console.log(`menu button clicked`);
+    //toggle class on menuContainer
     menuContainer.classList.toggle('menu--open');
   })
 

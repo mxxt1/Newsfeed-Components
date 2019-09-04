@@ -162,10 +162,13 @@ function createArticle(title,date,firstP,secondP,thirdP){
   p1.textContent = firstP;
   p2.textContent = secondP;
   p3.textContent = thirdP;
+  span.textContent = 'expand';         
 
   // Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
 
-  article.addEventListener('click', e =>{
+
+
+  span.addEventListener('click', e =>{
     console.log(`div was clicked`);
     article.classList.toggle('article-open');
   })
