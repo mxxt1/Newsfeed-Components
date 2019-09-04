@@ -91,7 +91,7 @@ const data = [
     date: 'Sept 4th, 2019',
     firstParagraph: `Florida Man is at it again. This time he has singlehandely scared away an entire hurricane with his odd smell and general aura of insanity. `,
 
-    secondParagraph: `Here is a partial list of some of the things Florida Man did in 2019: 1) Didn't get a straw, attacked McDonald's employee. 2) Arrested at Mar-a-Lago for trying to discuss Trump's '$6.3 Trillion'. 3) Arrested after hitting dad with a Pizza because he was "mad he helped birth him". 4) Arrested after an argument over cheesesteak. 5) Harrassed people in a park, while drunk and shirtless. 6) Was run over while laying in the middle of the street to watch the eclipse.`,
+    secondParagraph: `Here is a partial list of some of the things Florida Man did in 2019: 1) Didn't get a straw, attacked McDonald's employee. 2) Arrested at Mar-a-Lago for trying to discuss President Trumps '$6.3 Trillion'. 3) Arrested after hitting dad with a Pizza because he was "mad he helped birth him". 4) Arrested after an argument over cheesesteak. 5) Harrassed people in a park, while drunk and shirtless. 6) Was run over while lying in the middle of the street to watch the eclipse.`,
 
     thirdParagraph: `If you would be willing to adopt Florida Man, please send a notice of interest to the governor of Florida at PO Box 6666, with the title "We're willing to make Florida Man a [Your state here] Man".`
   }
